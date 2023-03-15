@@ -161,7 +161,6 @@ spawn(function()
         end
     end)
 end)
-
 spawn(function()
     game.GetService(game, "RunService").RenderStepped:Connect(function()
         if Playersaimbot ~= nil then 
